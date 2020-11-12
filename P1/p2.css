@@ -1,0 +1,147 @@
+html{
+  background-color:white;
+}
+
+/* *,*:before,*:after {
+    box-sizing:inherit;
+} */
+
+body{
+  margin: 0%;
+}
+
+
+#logo{
+  margin-right: 25%;
+  vertical-align: middle;
+}
+
+.style{
+  width: 100%;
+  display: flex;
+  margin: 0%;
+  background-color:rgb(218, 218, 218);
+  padding: none;
+}
+
+ul li{
+  position: relative;
+  padding: -10%;
+  list-style: none;
+  margin: 1%;
+  font-family: Arial bold, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+
+}
+
+ul li a{
+color: inherit; /* 移除超連結顏色 */
+text-decoration: none;  /* 移除超連結底線 */
+line-height: 50pt;
+}
+
+ul li:hover{
+color: red;
+}
+
+.ul-img{
+margin-left: 10%;
+margin-right: 10%;
+position: relative;
+display: inline;
+}
+
+  
+/* banner由此開始 */
+
+
+/* 結束囉 */
+  
+
+
+
+/* 開始p2內文 */
+
+#aboutimg{
+  display: block;
+  width: 417px;
+  height: 693px;
+  position: absolute;
+  left: 170px;
+  top: 200px;
+}
+
+#line{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+
+  position: absolute;
+  left: 170px;
+  top: 925px;
+
+  filter: grayscale(100);
+}
+
+#line:hover{
+  filter: hue-rotate(380deg);
+}
+
+#line_link{
+  color: inherit; /* 移除超連結顏色 */
+  text-decoration: none;  /* 移除超連結底線 */
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 18px;
+  font-weight: bold;
+
+  position: absolute;
+  left: 238px;
+  top: 937px;
+}
+
+#line_link:hover{
+  color: lightgreen;
+}
+
+#text{
+  width: 680px;
+  height: 185px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  position: absolute;
+  left: 690px;
+  top: 200px;
+  bottom: 100px;
+}
+
+h1{
+  display: block;
+  font-weight: 700;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+
+p{
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+/* 結束p2內文 */
+
+  footer{
+    margin-top: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color:rgb(46, 46, 46);
+    font-size: 80%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 1160px;
+    width: 100%;
+  }
